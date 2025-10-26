@@ -122,14 +122,8 @@
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
             <h2 data-aos="fade-up-left" data-aos-offset="300">Informasi Acara</h2>
-            <p data-aos="fade-up" data-aos-offset="305" class="alamat">Alamat: Musholla Nurul Hikmah.<br>JL.Bidara No.38, Wijaya Kusuma, Kec. Grogol petamburan, Kota Jakarta Barat. 11460</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.7723942917096!2d106.77616507498989!3d-6.161229993825952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDknNDAuNCJTIDEwNsKwNDYnNDMuNSJF!5e0!3m2!1sid!2sid!4v1756993258220!5m2!1sid!2sid" data-aos="zoom-in" data-aos-offset="305" width="95%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <a href="https://maps.app.goo.gl/RfUgB7beiLY5iDMj8" target="_blank" data-aos="fade-up" data-aos-offset="305" class="btn btn-light btn-sm my-2 ">Klik untuk Membuka Maps</a>
-            <p data-aos="fade-down" data-aos-offset="305" class="description">Diharapkan untuk tidak salah alamat dan Tanggal. Manakala tiba di tujuan 
-              namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah tempat</p>
           </div>
-        </div>
-
+        </div>    
         <div class="row justify-content-center mt-4">
           <div class="col-md-5 col-10" data-aos="zoom-in-down" data-aos-offset="305">
             <div class="card text-center text-bg-light mb-4">
@@ -140,7 +134,7 @@
                 <div class="row justify-content-center">
                   <div class="col-md-6" data-aos="fade-up" data-aos-offset="306">
                     <i class="bi bi-clock d-block"></i>
-                    <span>10.00 - 11.30</span>
+                    <span>08.00 - 10.00</span>
                   </div>
                   <div class="col-md-6" data-aos="fade-down" data-aos-offset="306">
                     <i class="bi bi-calendar3 d-block"></i>
@@ -153,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 col-10" data-aos="zoom-in" data-aos-offset="305">
+          <div class="col-md-5 col-10 mb-5"  data-aos="zoom-in" data-aos-offset="305" margin-bottom="10px">
             <div class="card text-center text-bg-light">
               <div class="card-header" data-aos="fade-up" data-aos-offset="305">
               Resepsi
@@ -176,7 +170,35 @@
             </div>
           </div>
         </div>
+         <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+          <div class="map-wrapper" data-aos="zoom-in" data-aos-offset="305">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.7723942917096!2d106.77616507498989!3d-6.161229993825952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDknNDAuNCJTIDEwNsKwNDYnNDMuNSJF!5e0!3m2!1sid!2sid!4v1756993258220!5m2!1sid!2sid"
+              class="map-frame mb-4"
+              width="95%"
+              height="230"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
 
+            <p data-aos="fade-up" data-aos-offset="305" class="alamat styled-alamat">
+              Alamat: <br>
+              Musholla Nurul Hikmah. <br>
+              JL.Bidara No.38, Wijaya Kusuma, <br>
+              Kec. Grogol Petamburan, <br>
+              Kota Jakarta Barat. 11460
+            </p>
+
+
+            <a href="https://maps.app.goo.gl/RfUgB7beiLY5iDMj8" target="_blank" data-aos="fade-up" data-aos-offset="305" class="btn btn-light btn-sm my-2 ">Klik untuk Membuka Maps</a>
+            <p data-aos="fade-down" data-aos-offset="305" class="description">Diharapkan untuk tidak salah alamat dan Tanggal. Manakala tiba di tujuan 
+              namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah tempat</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -316,7 +338,7 @@
               </a>
             </div>
             <div class="col">
-              <a href="img/gallery/5.png" data-toggle="lightbox" data-caption="Endang & Diska 9" data-gallery="mygallery">
+              <a href="img/gallery/5.png" data-toggle="lightbox"  data-caption="Endang & Diska 9" data-gallery="mygallery">
                 <img src="img/gallery/thumnail/thumnil5.png" alt="Endang & Diska 9" class="gallery-img">
               </a>
             </div>
@@ -397,7 +419,7 @@
 
     <script>
         // GANTI TARGET DI SINI (Tahun, Bulan-1, Tanggal, Jam, Menit, Detik)
-        const targetDate = new Date(2025, 10, 9, 10, 0, 0); 
+        const targetDate = new Date(2025, 10, 9, 8, 0, 0); 
         // Catatan: Bulan dimulai dari 0 (Januari = 0, Desember = 11)
 
         function updateCountdown() {
